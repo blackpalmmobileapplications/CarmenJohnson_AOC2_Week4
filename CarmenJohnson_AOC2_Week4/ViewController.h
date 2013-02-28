@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <SecondViewDelegate>
+{
+    IBOutlet UITextView *_textView; // TextView
+    
+    IBOutlet UILabel *_swipe; // Swipe Label
+    UISwipeGestureRecognizer *_rightSwipe;
+}
+
+-(IBAction)_save:(id)sender; // Save
 
 @end

@@ -18,6 +18,8 @@
 		116F5F2116DFE4F5004953AA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 116F5F2016DFE4F5004953AA /* Default-568h@2x.png */; };
 		116F5F2416DFE4F5004953AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116F5F2316DFE4F5004953AA /* ViewController.m */; };
 		116F5F2716DFE4F5004953AA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116F5F2516DFE4F5004953AA /* ViewController.xib */; };
+		116F5F3316DFE789004953AA /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 116F5F3216DFE789004953AA /* SecondView.xib */; };
+		116F5F3B16DFE98C004953AA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116F5F3A16DFE98C004953AA /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		116F5F2216DFE4F5004953AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		116F5F2316DFE4F5004953AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		116F5F2616DFE4F5004953AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		116F5F3216DFE789004953AA /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		116F5F3916DFE98C004953AA /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		116F5F3A16DFE98C004953AA /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				116F5F2316DFE4F5004953AA /* ViewController.m */,
 				116F5F2516DFE4F5004953AA /* ViewController.xib */,
 				116F5F1116DFE4F5004953AA /* Supporting Files */,
+				116F5F3216DFE789004953AA /* SecondView.xib */,
+				116F5F3916DFE98C004953AA /* SecondViewController.h */,
+				116F5F3A16DFE98C004953AA /* SecondViewController.m */,
 			);
 			path = CarmenJohnson_AOC2_Week4;
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 				116F5F1F16DFE4F5004953AA /* Default@2x.png in Resources */,
 				116F5F2116DFE4F5004953AA /* Default-568h@2x.png in Resources */,
 				116F5F2716DFE4F5004953AA /* ViewController.xib in Resources */,
+				116F5F3316DFE789004953AA /* SecondView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				116F5F1716DFE4F5004953AA /* main.m in Sources */,
 				116F5F1B16DFE4F5004953AA /* AppDelegate.m in Sources */,
 				116F5F2416DFE4F5004953AA /* ViewController.m in Sources */,
+				116F5F3B16DFE98C004953AA /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
